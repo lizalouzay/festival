@@ -316,6 +316,9 @@ input[type=email] {
     text-decoration: none;
     margin: 0 5vw;
 }
+.section-regist-mobile {
+    display: none;
+}
 
 
 
@@ -327,6 +330,9 @@ input[type=email] {
 .section-regist {
     padding-bottom: 800px;
 }
+.section-regist-mobile {
+    display: none;
+}
 }
 
 
@@ -336,6 +342,9 @@ input[type=email] {
 
 @media only screen and (max-width: 1024px) {
 
+.section-regist-mobile {
+    display: none;
+}
 .section-gallery-wrapper-3-1-text {
     padding-right: 50px;
 }
@@ -369,6 +378,9 @@ input[type=email] {
 
 @media only screen and (max-width: 768px) {
 
+.section-regist-mobile {
+    display: none;
+}
 .h2 {
     font-size: 15px;
 }
