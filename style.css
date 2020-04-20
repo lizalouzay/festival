@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto+Slab:wght@200&family=Rubik:wght@300&display=swap');
 
+.section-regist-mobile {
+    display: none;
+}
 html {
     display: block;
     margin: 0;
@@ -316,9 +319,7 @@ input[type=email] {
     text-decoration: none;
     margin: 0 5vw;
 }
-.section-regist-mobile {
-    display: none;
-}
+
 
 
 
@@ -327,12 +328,13 @@ input[type=email] {
 
 @media only screen and (min-width: 2560px) {
 
+.section-regist-mobile {
+    display: none;
+}    
 .section-regist {
     padding-bottom: 800px;
 }
-.section-regist-mobile {
-    display: none;
-}
+
 }
 
 
