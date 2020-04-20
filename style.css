@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto+Slab:wght@200&family=Rubik:wght@300&display=swap');
+
+html {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 37px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab';
+}
+.section-wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1256px;
+}
+a:hover {
+    color: rgb(255, 170, 121);
+    text-decoration: underline;
+}
+.h2 {
+    font-size: 20px;
+}
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 140px;
+}
+.header-menu {
+    display: block;
+    width: auto;
+}
+.header-nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+.header-nav-ul {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding: 0px;
+}
+.header-nav-ul-li-a {
+    color: white;
+    text-decoration: none;
+    margin: 2vw;
+}
+a:hover {
+    color: rgb(255, 144, 129);
+    text-decoration: underline;
+}
+
+
+.section-festival {
+    height: 870px;
+    background-image: url(images/main.svg);
+    background-size: cover;
+    position: relative;
+}
+.h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 410px;
+}
+
+
+.section-description {
+    background-color: black;
+    height: 300px;
+}
+.h3 {
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.h3-descrip {
+    margin: 0px;
+    color: white;
+    padding-top: 120px;
+}
+
+
+.section-gallery {
+    padding-top: 125px;
+    padding-bottom: 200px;
+}    
+.p {
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.section-gallery-wrapper-3-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+    margin: 0 50px;
+}
+.section-gallery-wrapper-3-1-text {
+    padding-right: 130px;
+}
+.section-gallery-wrapper-3-2-text {
+    padding-left: 140px;
+    
+}
+.section-gallery-wrapper-3-3-text {
+    padding-right: 150px;
+}
+
+
+.section-history {
+    height: 1400px;
+    background-color: black;
+}
+.arrow {
+    height: 130px;
+    width: 50px;
+    color: white;
+}
+.h3-hist {
+    color: white; 
+    margin: 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.p-hist {
+    color: white;
+}
+.section-history-wrapper-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px
+}
+
+
+.section-teaser {
+    position: relative;
+}
+.h3-teaser {
+    color: white;
+    margin: 0px;
+    padding: 50px 0;
+}
+.section-teaser-wrapper {
+    position: absolute;
+    top: -280px;
+    padding-left: 44vw;
+}
+
+
+.section-team {
+ position: relative;
+ height: 1200px;
+}
+.section-team-wrapper {
+    display: flex;
+    padding-top: 450px;
+}
+.section-team-ul-li {
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.section-team-ul {
+    text-align: left;
+    padding-left: 0px;
+}
+.section-team-ul-li {
+    margin-bottom: 20px;
+}
+.section-fantasies-wrapper-img12 {
+    margin-top: 22px;
+}
+.section-team-wrapper-img2 {
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+    display: flex;
+}
+.section-team-wrapper-img1 {
+    position: absolute;
+    right: 410px;
+    top: 550px;
+}
+.section-team-wrapper-content {
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.h3-team {
+    padding: 50px 0;
+    margin-right: 20px;
+}
+
+
+.section-partners {
+    padding-bottom: 800px;
+    position: relative;
+    top: 250px;
+}
+.h3-partners {
+    color: black;
+    padding: 50px 0;
+    margin: 0;
+}
+
+
+.section-regist {
+    background-image: url(images/TomorrowLand\ Festival\ HD\ Wallpapers\ 2017\ 1.svg);
+    background-size: cover;
+    position: relative;
+    padding-bottom: 600px;
+}
+.h3-regist {
+    color: white;
+    margin-left: 80px;
+    margin-top: 125px;
+}
+.section-regist-wrapper-content {
+    display: flex;
+    top: 16vh;
+    position: absolute;
+    left: 180px;
+}
+.section-regist-wrapper-div {
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 5px;
+    width: 440px;
+    display: flex;
+}
+span {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.section-regist-wrapper-form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+input[type=text] {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #4d4d4d;;
+    background-color: transparent;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+input[type=email] {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #4d4d4d;;
+    background-color: transparent;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.section-regist-checkbox {
+    margin-top: 20px;
+}
+.button {
+    margin: auto;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: white solid;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 140px;
+}
+.footer-nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.footer-nav-ul-li-a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5vw;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 2560px) {
+
+.section-regist {
+    padding-bottom: 800px;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+.section-gallery-wrapper-3-1-text {
+    padding-right: 50px;
+}
+.section-gallery-wrapper-3-2-text {
+    padding-left: 100px;
+}
+.section-gallery-wrapper-3-3-text {
+    padding-right: 90px;
+}
+.section-team-wrapper {
+    margin: 0 50px;
+}
+.section-team-wrapper-img1 {
+    right: 300px;
+}
+.section-team-wrapper-img2 {
+    right: -30px;
+}
+.section-fantasies-wrapper-img13, .section-fantasies-wrapper-img11, .section-fantasies-wrapper-img12 {
+    width: 300px;
+}
+.section-regist-wrapper-content {
+    left: 80px;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.h2 {
+    font-size: 15px;
+}
+.section-festival {
+    height: 515px;
+}
+.h1 {
+    font-size: 65px;
+    padding-top: 245px;
+}
+.section-description {
+    height: 200px;
+}
+.h3 {
+    font-size: 24px;
+}
+.h3-descrip {
+    padding-top: 75px;
+}
+.p {
+    font-size: 14px;
+}
+.section-gallery-wrapper-3-all-img {
+    width: 360px;
+}
+.section-gallery {
+    padding-bottom: 60px;
+}
+.history-img {
+    width: 300px;
+}
+.arrow {
+    height: 65px;
+}
+.h3-hist {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.section-history {
+    padding-bottom: 900px;
+    height: 0;
+}
+.section-team-wrapper {
+    padding-top: 260px;
+}
+.section-fantasies-wrapper-img13, .section-fantasies-wrapper-img11, .section-fantasies-wrapper-img12 {
+    width: 220px;
+}
+.section-team-wrapper-img1 {
+    right: 210px;
+    top: 380px;
+}
+.section-team-wrapper-content {
+    margin-right: 0;
+    margin-top: 70px;
+}
+.section-team-ul-li {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.h3-team {
+    padding: 20px 0; 
+    margin: 0 20px 0 0;
+}
+.section-team {
+    height: 0;
+    padding-bottom: 50px;
+}
+.section-regist {
+    padding-bottom: 450px;
+}
+.section-regist-wrapper-div {
+    width: 350px;
+    height: 260px;
+}
+.h3-regist {
+    margin-top: 120px;
+}
+span {
+    font-size: 15px;
+}
+.section-regist-checkbox {
+    margin: 0;
+}
+.section-regist-wrapper-form {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.button {
+    margin-top: 4px;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+.header-wrapper {
+    height: 60px;
+}
+.h2 {
+    font-size: 6px;
+}
+.section-festival {
+    height: 220px;
+}
+.h1 {
+    font-size: 30px;
+    padding-top: 90px;
+}
+.section-description {
+    height: 100px;
+}
+.h3 {
+    font-size: 12px;
+}
+.h3-descrip {
+    padding-top: 30px;
+}
+.section-gallery-wrapper-3-all-img {
+    width: 145px;
+}
+.section-gallery-wrapper-3-all {
+    padding-bottom: 20px;
+    margin: 0px 20px;
+}
+.p {
+    font-size: 7px;
+}
+.section-gallery-wrapper-3-1-text {
+    padding-right: 25px;
+}
+.section-gallery-wrapper-3-2-text {
+    padding-left: 40px;
+}
+.section-gallery-wrapper-3-3-text {
+    padding-right: 40px;
+}
+.history-img{
+    width: 145px;
+}
+.section-history-wrapper-content {
+    margin: 0;
+}
+.arrow {
+    height: 30px;
+}
+.h3-year {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.section-history {
+    padding-bottom: 530px;
+}
+.section-teaser-wrapper {
+    top: -190px;
+}
+.section-fantasies-wrapper-img13, .section-fantasies-wrapper-img11, .section-fantasies-wrapper-img12 {
+    width: 80px;
+}
+.section-team-wrapper {
+    padding-top: 180px;
+}
+.section-team-ul-li {
+    font-size: 7px;
+    margin-bottom: -20px;
+}
+.h3-team {
+    padding: 10px 0;
+}
+.section-team-wrapper-img1 {
+    right: 70px;
+    top: 235px;
+}
+.section-team-wrapper-img2 {
+    right: -20px;
+}
+.section-team-wrapper-content {
+    margin-top: 0px;
+}
+.section-team-wrapper {
+    margin: 0 40px;
+}
+.section-partners {
+    padding-bottom: 510px;
+    top: 350px;
+}
+.footer-nav-ul {
+    font-size: 7px;
+}
+.footer-wrapper {
+    height: 60px;
+}
+.section-regist {
+    display: none;
+}
+.section-regist-mobile {
+    background-image: url(images/TomorrowLand\ Festival\ HD\ Wallpapers\ 2017\ 1.svg);
+    background-size: cover;
+    position: relative;
+    padding-bottom: 200px;
+}
+.section-regist-wrapper-div {
+    width: 155px;
+    height: 90px;
+}
+span {
+    font-size: 7px;
+}
+input {
+    font-size: 7px;
+}
+.section-regist-wrapper-form {
+    margin: 5px;
+}
+.section-online-form-name, .section-online-form-phone, .section-online-form-mail {
+    margin: -5px 0 -20px 0;
+}
+.button {
+    padding: 3px 3px;
+    width: 95px;
+    font-size: 7px;
+    height: 10px;
+    border: 0;    
+    margin: 14px auto;
+}
+.h3-regist {
+    margin-left: -35px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.section-regist-wrapper-content {
+    top: 70px;
+}
+}
