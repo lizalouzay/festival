@@ -586,9 +586,6 @@ span {
     height: 60px;
 }
 .section-regist {
-    display: none;
-}
-.section-regist-mobile {
     background-image: url(images/TomorrowLand\ Festival\ HD\ Wallpapers\ 2017\ 1.svg);
     background-size: cover;
     position: relative;
@@ -610,6 +607,9 @@ input {
 .section-online-form-name, .section-online-form-phone, .section-online-form-mail {
     margin: -5px 0 -20px 0;
 }
+.section-regist-checkbox {
+    display: none;
+}
 .button {
     padding: 3px 3px;
     width: 95px;
@@ -619,12 +619,13 @@ input {
     margin: 14px auto;
 }
 .h3-regist {
-    margin-left: -35px;
+    margin-left: 15px;
     margin-top: 25px;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 .section-regist-wrapper-content {
     top: 70px;
+    left: 30px;
 }
 .footer-nav-ul-li {
     font-size: 6px;
