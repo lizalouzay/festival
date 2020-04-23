@@ -319,6 +319,9 @@ input[type=email] {
     text-decoration: none;
     margin: 0 5vw;
 }
+.footer-nav-ul-li {
+    font-size: 20px;
+}
 
 
 
@@ -474,6 +477,9 @@ span {
 .button {
     margin-top: 4px;
 }
+.footer-nav-ul-li {
+    font-size: 15px;
+}
 }
 
 
@@ -541,6 +547,7 @@ span {
 }
 .section-teaser-wrapper {
     top: -190px;
+    padding-left: 39vw;
 }
 .section-fantasies-wrapper-img13, .section-fantasies-wrapper-img11, .section-fantasies-wrapper-img12 {
     width: 80px;
@@ -618,5 +625,8 @@ input {
 }
 .section-regist-wrapper-content {
     top: 70px;
+}
+.footer-nav-ul-li {
+    font-size: 6px;
 }
 }
